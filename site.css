@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.body{
+    height: 100%;
+    width: 80%;
+    text-align: center;
+    margin: -10px 10% -1% 10%;
+    padding: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    border-left: 10px double darkblue;
+    border-right: 10px double darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.titulo{
+    color: darkblue;
+    font-size: 30px;
+    text-shadow: 1px 1px 10px lightskyblue;
+}
+
+.paragrafo{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.divisao{
+    height: 8px;
+    width: 100%;
+    background-color: #E6E6FA;
+    border: 2px dotted blueviolet;
+    margin-top: 50px;
+}
+
+.titulo-especies{
+    margin-top: 50px;
+    font-size: 30px;
+    color: steelblue;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.especies{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.especies img{
+    margin: 40px 20px 20px 20px;
+    border: 5px inset mediumslateblue;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    font-size: 17px;
+}
+
+.nome-especie{
+    color: darkviolet;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.causas{
+    text-align: left;
+}
+
+.causas li{
+    list-style-image: url('/turtle.png');
+    list-style-position: inside;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+}
+
+.conteudo-indice{
+    font-size: 17px;
+    text-align: justify;
+}
+
+.fonte{
+    margin: 40px 0 40px 0;
+    font-size: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    padding: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: darkblue;
+    border-radius: 20px;
+}
